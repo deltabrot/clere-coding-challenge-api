@@ -27,8 +27,7 @@
 * **Sample Call:**
 
   ```bash
-    curl -X GET https://test.clerenet.com/product/1
-```
+    curl -X GET https://test.clerenet.com/product/1```
 
 **Get All Products**
 ----
@@ -58,8 +57,7 @@
 * **Sample Call:**
 
   ```bash
-    curl -X GET https://test.clerenet.com/product
-```
+    curl -X GET https://test.clerenet.com/product```
 
 **Create Product**
 ----
@@ -99,8 +97,7 @@
 * **Sample Call:**
 
   ```bash
-    curl -X POST -d '{"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product
-```
+    curl -X POST -d '{"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product```
 
 **Update Product**
 ----
@@ -141,8 +138,7 @@
 * **Sample Call:**
 
   ```bash
-    curl -X PUT -d '{"id": 1,"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product
-```
+    curl -X PUT -d '{"id": 1,"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product```
 
 **Delete Product**
 ----
@@ -167,5 +163,4 @@
 * **Sample Call:**
 
   ```bash
-    curl -X DELETE https://test.clerenet.com/product
-```
+    curl -X DELETE https://test.clerenet.com/product```
