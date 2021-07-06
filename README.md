@@ -11,13 +11,15 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** ```json
+    **Content:**
+```json
 {
     "id": 1,
     "name": "Example name",
     "price": 9.99,
     "currency": "GBP"
-}```
+}
+```
 
 * **Error Resonse:**
 
@@ -26,8 +28,9 @@
 
 * **Sample Call:**
 
-  ```bash
-    curl -X GET https://test.clerenet.com/product/1```
+```bash
+curl -X GET https://test.clerenet.com/product/1
+```
 
 **Get All Products**
 ----
@@ -48,7 +51,8 @@
     { "id": 1, "name": "Example name 1", "price": 2.99, "currency": "GBP"},
     { "id": 2, "name": "Example name 2", "price": 4.99, "currency": "GBP"},
     { "id": 3, "name": "Example name 3", "price": 9.99, "currency": "GBP"}
-]```
+]
+```
 
 * **Error Resonse:**
 
@@ -57,8 +61,9 @@
 
 * **Sample Call:**
 
-  ```bash
-    curl -X GET https://test.clerenet.com/product```
+```bash
+curl -X GET https://test.clerenet.com/product
+```
 
 **Create Product**
 ----
@@ -76,7 +81,8 @@
     "name": "string",
     "price": 0,
     "currency": "string"
-}```
+}
+```
 
 * **Success Response:**
 
@@ -98,8 +104,9 @@
 
 * **Sample Call:**
 
-  ```bash
-    curl -X POST -d '{"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product```
+```bash
+curl -X POST -d '{"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product
+```
 
 **Update Product**
 ----
@@ -112,13 +119,14 @@
   `PUT`
 
 * **Data Params:**
-  ```json
+```json
 {
     "id": 0,
     "name": "string",
     "price": 0,
     "currency": "string"
-}```
+}
+```
 
 * **Success Response:**
 
@@ -140,8 +148,9 @@
 
 * **Sample Call:**
 
-  ```bash
-    curl -X PUT -d '{"id": 1,"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product```
+```bash
+curl -X PUT -d '{"id": 1,"name":"Test","price":10.99,"currency":"USD"}' https://test.clerenet.com/product
+```
 
 **Delete Product**
 ----
@@ -165,5 +174,6 @@
 
 * **Sample Call:**
 
-  ```bash
-    curl -X DELETE https://test.clerenet.com/product```
+```bash
+curl -X DELETE https://test.clerenet.com/product
+```
