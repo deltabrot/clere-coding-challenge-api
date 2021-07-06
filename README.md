@@ -182,5 +182,5 @@ curl -X PUT -d '{"id": 1,"name":"Test","price":10.99,"currency":"USD"}' https://
 * **Sample Call:**
 
 ```bash
-curl -X DELETE https://test.clerenet.com/product
+curl -X DELETE https://test.clerenet.com/product/1
 ```
