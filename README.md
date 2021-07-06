@@ -42,7 +42,8 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** ```json
+    **Content:**
+```json
 [
     { "id": 1, "name": "Example name 1", "price": 2.99, "currency": "GBP"},
     { "id": 2, "name": "Example name 2", "price": 4.99, "currency": "GBP"},
@@ -70,7 +71,7 @@
   `POST`
 
 * **Data Params:**
-  ```json
+```json
 {
     "name": "string",
     "price": 0,
@@ -80,7 +81,8 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** ```json
+    **Content:**
+```json
 {
     "id": 1,
     "name": "Example name 1",
@@ -121,7 +123,8 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** ```json
+    **Content:**
+```json
 {
     "id": 1,
     "name": "Updated name 1",
