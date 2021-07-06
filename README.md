@@ -1,3 +1,10 @@
+# clere-coding-challenge-api
+
+This API is hosted publicly on:
+```
+https://test.clerenet.com
+```
+
 **Get Product**
 ----
   Retrieves a single product by a specified id.
