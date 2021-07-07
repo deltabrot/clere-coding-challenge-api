@@ -10,7 +10,7 @@ We have built a RESTful API which is documented below for you to integrate into 
 
 # Front-end Requirements & Wireframes
 
-To visualise the requirements of the challenge, we have provided wireframe illustrations of what the final product should look like. These are simply mockups so feel free to add as much creative flare as you like.
+To visualise the requirements of the challenge, we have provided wireframe illustrations of what the final product should look like. These are simply mockups so feel free to add as much creative flair as you like.
 
 ## Table View
 
